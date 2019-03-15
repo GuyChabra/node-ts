@@ -1,0 +1,24 @@
+{
+  "name": "node-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc -p tsconfig-serve.json && node main.js",
+    "proxy": "node proxy-server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "rxjs": "^6.3.3",
+    "tslint": "^5.11.0",
+    "typescript": "^3.2.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.118",
+    "tslint-eslint-rules": "^5.4.0"
+  }
+}
